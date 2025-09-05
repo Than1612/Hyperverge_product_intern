@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "RuralLoan",
+    "slug": "rural-loan",
+    "platforms": ["ios", "android", "web"],
+    "entryPoint": "./index.web.js",
+    "web": { "bundler": "metro" }
+  }
+}
