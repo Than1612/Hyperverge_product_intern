@@ -1,0 +1,38 @@
+{
+  "name": "rural-loan-ai",
+  "version": "1.0.0",
+  "description": "AI-Enabled Loan Underwriting Agent for Rural and Semi-Urban India",
+  "main": "index.js",
+  "scripts": {
+    "dev:mobile": "cd mobile && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:ai": "cd ai-services && npm run dev",
+    "build:mobile": "cd mobile && npm run build",
+    "build:backend": "cd backend && npm run build",
+    "test": "npm run test:mobile && npm run test:backend",
+    "test:mobile": "cd mobile && npm test",
+    "test:backend": "cd backend && npm test",
+    "deploy": "docker-compose up -d",
+    "setup": "npm install && cd mobile && npm install && cd ../backend && npm install && cd ../ai-services && npm install"
+  },
+  "keywords": [
+    "fintech",
+    "ai",
+    "loan",
+    "underwriting",
+    "rural",
+    "financial-inclusion"
+  ],
+  "author": "Rural Loan AI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "cross-env": "^7.0.3"
+  },
+  "workspaces": [
+    "mobile",
+    "backend",
+    "ai-services",
+    "shared"
+  ]
+}

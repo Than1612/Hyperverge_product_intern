@@ -1,0 +1,1 @@
+{"version":3,"file":"riskAssessment.d.ts","sourceRoot":"","sources":["../../src/models/riskAssessment.ts"],"names":[],"mappings":"AAAA,qBAAa,mBAAmB;IACxB,OAAO,CAAC,QAAQ,EAAE,MAAM,EAAE,GAAG,OAAO,CAAC;QACzC,SAAS,EAAE,MAAM,CAAC;QAClB,kBAAkB,EAAE,MAAM,CAAC;QAC3B,UAAU,EAAE,MAAM,CAAC;QACnB,iBAAiB,EAAE,GAAG,CAAC;KACxB,CAAC;CAeH"}
